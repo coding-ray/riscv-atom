@@ -29,9 +29,6 @@
 `define ALU_FUNC_SLL    4'd5
 `define ALU_FUNC_SRL    4'd6
 `define ALU_FUNC_SRA    4'd7
-
-
-// ALU M extension
 `define ALU_FUNC_MUL    4'd8
 `define ALU_FUNC_MULH   4'd9
 `define ALU_FUNC_MULHSU 4'd10
@@ -50,9 +47,5 @@
 `define CMP_FUNC_GE     3'd4
 `define CMP_FUNC_LTU    3'd5
 `define CMP_FUNC_GEU    3'd6
-
-
-
-
 
 `endif // __DEFS_VH__

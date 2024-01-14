@@ -523,8 +523,8 @@ module Decode
                 b_op_sel_o = 1'b0;
                 alu_op_sel_o = `ALU_FUNC_MULH;
             end
-            
-            /* MULHSU   */
+
+            /* MULHSU */
             17'b0100001_010_0110011:
             begin
                 instr_scope = "MULHSU";
@@ -534,8 +534,8 @@ module Decode
                 b_op_sel_o = 1'b0;
                 alu_op_sel_o = `ALU_FUNC_MULHSU;
             end
-            
-            /* MULHU   */
+
+            /* MULHU */ 
             17'b0100001_011_0110011:
             begin
                 instr_scope = "MULHU";
@@ -545,8 +545,8 @@ module Decode
                 b_op_sel_o = 1'b0;
                 alu_op_sel_o = `ALU_FUNC_MULHU;
             end
-            
-            /* DIV   */
+
+            /* DIV   */ 
             17'b0100001_100_0110011:
             begin
                 instr_scope = "DIV";
@@ -556,8 +556,8 @@ module Decode
                 b_op_sel_o = 1'b0;
                 alu_op_sel_o = `ALU_FUNC_DIV;
             end
-            
-            /* DIVU   */
+
+            /* DIVU  */ 
             17'b0100001_101_0110011:
             begin
                 instr_scope = "DIVU";
@@ -567,8 +567,8 @@ module Decode
                 b_op_sel_o = 1'b0;
                 alu_op_sel_o = `ALU_FUNC_DIVU;
             end
-            
-            /* REM   */
+
+            /* REM   */ 
             17'b0100001_110_0110011:
             begin
                 instr_scope = "REM";
@@ -578,8 +578,8 @@ module Decode
                 b_op_sel_o = 1'b0;
                 alu_op_sel_o = `ALU_FUNC_REM;
             end
-            
-            /* REMU   */
+
+            /* REMU  */ 
             17'b0100001_111_0110011:
             begin
                 instr_scope = "REMU";
